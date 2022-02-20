@@ -3,7 +3,7 @@ const client = new Discord.Client({
     intents: 32767
 })
 
-client.login("OTQyODM2MjUyNjI4MTE5NTcy.YgqSrw.q-3sfXLU_AdzCd6XowMc3ztPf9Q")
+client.login(process.env.token)
 
 
 
